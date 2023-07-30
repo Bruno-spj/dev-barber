@@ -1,0 +1,95 @@
+@media (max-width: 768px) {
+
+    .header-content{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-logo{
+        width: 160px;
+        margin-top: 46px
+    }
+
+    .header-button{
+        display: none;
+    }
+
+   .header-icons{
+    margin: 0 auto;
+    margin-top: 10px;
+
+    }   
+
+    .sessao{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 100px;
+        justify-content: center;
+        margin-left: 20px;
+        
+    }
+
+    .sessao-trabalho{
+        max-width: 300px;
+        height: 300px;
+        
+    }
+
+    .descricao-sobre{
+       
+        margin-top: 8px;
+    }
+
+    .sessao-trabalho img{
+        width: 300px;
+        height: 300px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    .cortes{
+        margin-left: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 320px) {
+    main .conteudo{
+        padding: 0 14px;
+        width: 100%;
+        font-size: 25px;
+
+        
+    }
+
+    }
+
+    
+    main .informacao{
+     font-size: 13px;
+     margin: 8px;
+  
+    }
+
+    .servicos-cortes h2{
+        justify-content: center;
+        font-size: 25px;
+
+    }
+
+    a img{
+        width: 30px;
+        
+}
+
+@media (max-width: 412px){
+    main .conteudo{
+        font-size: 25px;
+    }
+}
